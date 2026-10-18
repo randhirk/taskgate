@@ -1,0 +1,5 @@
+{"type":"run","id":"demo","task":"checkout"}
+{"type":"model","input_tokens":800,"output_tokens":60,"cached_input_tokens":400,"cost_usd":0.012}
+{"type":"tool","name":"search_catalog","args":{"q":"lamp"},"mutating":false,"input_tokens":20,"output_tokens":100,"cost_usd":0.004,"latency_ms":80,"ok":true}
+{"type":"tool","name":"charge_card","args":{"amount":20,"currency":"USD"},"mutating":true,"idempotency_key":"pay_9","input_tokens":15,"output_tokens":20,"cost_usd":0.004,"latency_ms":200,"ok":true}
+{"type":"run_end","status":"ok"}

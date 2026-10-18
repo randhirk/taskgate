@@ -1,0 +1,7 @@
+{"type":"run","id":"demo-reg","task":"checkout"}
+{"type":"model","input_tokens":4000,"output_tokens":400,"cost_usd":0.030}
+{"type":"tool","name":"search_catalog","args":{"q":"lamp"},"mutating":false,"cost_usd":0.004,"ok":true}
+{"type":"tool","name":"search_catalog","args":{"q":"lamp shade"},"mutating":false,"cost_usd":0.004,"ok":true}
+{"type":"tool","name":"search_catalog","args":{"q":"bulb"},"mutating":false,"cost_usd":0.004,"ok":true}
+{"type":"tool","name":"charge_card","args":{"amount":20,"currency":"USD"},"mutating":true,"idempotency_key":"pay_9","cost_usd":0.004,"ok":true}
+{"type":"run_end","status":"ok"}
